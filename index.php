@@ -28,19 +28,20 @@
                 </div>
                 <div class="center-col">
                     <?php include 'common/banner.php' ?>
+                    <?php include 'component/top-category.php' ?>
                     <?php include 'component/trending.php' ?>
                     <div class="promote center-box-promote">
                         <a href="#">
                             <img src="images/banner/promote.png" alt="">
                         </a>
                     </div>
-                    <?php include 'component/top-category.php' ?>
                 </div>
                 <div class="right-col">
                     <?php include 'common/right-col.php' ?>
                 </div>
             </div>
             <div class="bottom-content">
+                <?php include 'component/home-list-products.php' ?>
                 <?php include 'common/bottom-col.php' ?>
             </div>
         </div>
@@ -55,16 +56,16 @@
     });
     $('.category-list').slick({
         dots: !1,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         autoplay: !1,
         autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 760,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             }
         ]
@@ -79,6 +80,35 @@
         responsive: [
             {
                 breakpoint: 760,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            }
+        ]
+    });
+    $('.list-product-info').slick({
+        dots: !1,
+        slidesToShow: 5,
+        autoplay: 5,
+        autoplaySpeed: 5000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 640,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,

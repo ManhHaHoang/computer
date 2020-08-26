@@ -21,11 +21,6 @@
         <?php } ?>
     </div>
 </div>
-<div class="promote">
-    <a href="#">
-        <img src="images/banner/deal.png" alt="">
-    </a>
-</div>
 <div class="widget">
     <div class="widget-title">
         Dịch vụ của chúng tôi

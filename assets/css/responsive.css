@@ -499,7 +499,8 @@
     .right-col,
     .center-col{
         width: 100%;
-        padding: 0
+        padding: 0;
+        margin-bottom: 20px;
     }
 
     .top-content {
@@ -534,11 +535,27 @@
         padding: 7px 15px;
     }
 
-    #site-main .site-w {
-        padding: 0
+    .promote {
+        display: none;
+    }
+
+    .widget-body {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 15px;
+    }
+    .services-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 15px;
     }
 }
 
+@media (min-width: 760px) and (max-width: 1020px) {
+    .category-tab {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr))
+    }
+}
 @media (max-width: 760px) {
     .repair-content, .segment-order-form-content {
         width: 94vw;
@@ -688,6 +705,10 @@
 
     .grid-list {
         display: none;
+    }
+
+    .category-tab {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
     }
 }
 

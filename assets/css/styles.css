@@ -503,7 +503,9 @@
     margin-top: 35px;
     position: relative;
 }
-
+.news-wrapper {
+    margin-top: 45px;
+}
 .component-tabs {
     display: flex;
     justify-content: flex-start;

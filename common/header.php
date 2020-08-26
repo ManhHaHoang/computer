@@ -9,7 +9,7 @@
             <span></span>
         </div>
         <a class="site-logo" href="/">
-            <img src="/images/logo.png" alt="">
+            <img src="/images/logo.svg" alt="">
         </a>
         <div class="header-right flex-box">
             <form class="search-header flex-box flex-e" action="/search" method="post">

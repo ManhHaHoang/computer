@@ -1,7 +1,7 @@
 <footer id="site-footer">
     <div class="site-w">
         <a class="footer-logo" href="/">
-            <img src="/images/logo-w.png" alt="">
+            <img src="/images/footer.svg" alt="">
         </a>
         <div class="work-time">
             <h3 class="footer-title">Thời gian làm việc</h3>

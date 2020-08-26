@@ -47,6 +47,13 @@ $(document).ready(function() {
         $(currentValue).addClass('active').siblings().removeClass('active');
     });
 
+
+    $('.category-tab-item').click(function() {
+        var currentValue = $(this).attr('data-category');
+        $(this).addClass('active').siblings().removeClass('active');
+        $('html, body').animate({scrollTop: $(currentValue + '.home-list-products').offset().top - 30}, 500);
+    });
+
     $('.profile-tab-item').click(function() {
         var currentValue = $(this).attr('data-value');
         $(this).addClass('active').siblings().removeClass('active');
